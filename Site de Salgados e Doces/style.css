@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #FFA500;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.category {
+    margin: 20px;
+}
+
+.category h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.item {
+    background-color: #F0F0F0;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav li {
+    margin-right: 20px; /* Espaçamento entre os links */
+}
+
+header nav a {
+    text-decoration: none;
+    background-color: #FFA500; /* Cor de fundo de sua escolha */
+    color: #fff; /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno para criar um retângulo */
+    border-radius: 5px;
+    transition: background-color 1s;
+}
+
+header nav {
+    display: flex;
+    justify-content: center; /* Centralizar horizontalmente */
+}
+
+header nav a:hover {
+    background-color: #FFD700; /* Cor de fundo amarela quando o link está em destaque (hover) */
+}
+
+.about {
+    text-align: center; /* Centraliza o texto horizontalmente */
+    padding: 20px; /* Adiciona um espaçamento interno para evitar que o texto toque nas bordas */
+    margin: 0 auto; /* Centraliza a seção horizontalmente no site */
+    max-width: 800px; /* Define uma largura máxima para a seção */
+}
